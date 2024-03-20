@@ -1,4 +1,5 @@
 thank u Collin
+20.3.2024
 ```
 Variables are Containers for Storing Data
 JavaScript Variables can be declared in 4 ways:
@@ -7,4 +8,22 @@ Automatically
 Using var
 Using let
 Using const
+When to Use var, let, or const?
+1. Always declare variables
+
+2. Always use const if the value should not be changed
+
+3. Always use const if the type should not be changed (Arrays and Objects)
+
+4. Only use let if you can't use const
+
+5. Only use var if you MUST support old browsers.
+JavaScript Code Blocks
+JavaScript statements can be grouped together in code blocks, inside curly brackets {...}.
+
+The purpose of code blocks is to define statements to be executed together.
+
+One place you will find statements grouped together in blocks, is in JavaScript functions:
+
+
 ```
