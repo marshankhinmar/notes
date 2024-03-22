@@ -21,7 +21,7 @@ When to Use var, let, or const?
 JavaScript Code Blocks
 JavaScript statements can be grouped together in code blocks, inside curly brackets {...}.
 
-
+22/3/2024
 <ul>
 
     <li> Home </li>
