@@ -44,6 +44,35 @@ JavaScript statements can be grouped together in code blocks, inside curly brack
 
 <img src ="a yuu ma.jpg " width= "500px" height="500px"
 
+<h3> List of citizens or sinners in Myanmar</h3>
+    
+    <form action="/" method="get">
+
+        <div>
+
+            <label for=" Username">User Name:</label>
+            <input type=" text" name="Username" Id="user" required placeholer="Enter Your Name....">
+
+        </div>
+
+
+        <div>
+
+            <label for=" pwd"> Password:</label>
+            <input type="password" name="pwd" Id="user" required placeholder="Enter your secret, Lol">
+
+
+        </div>
+        <div>
+            <button type="ResetButton"> Reset</button>
+            <button type="submitButton"> login</button>
+
+        </div>
+    
+
+    </form>
+
+
 
 The purpose of code blocks is to define statements to be executed together.
 
