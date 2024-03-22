@@ -72,6 +72,85 @@ JavaScript statements can be grouped together in code blocks, inside curly brack
 
     </form>
 
+23/3/2024
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Marshan Survey Form</title>
+</head>
+
+<body>
+    <h1> Survey Form</h1>
+    <form>
+
+        <div>
+        <label for="Firstname">First Name: </label>
+        <input type="text" name="Firstname" id="Firstname">
+       </div>
+
+       <div>
+
+        <label for="Lastname">Last Name: </label>
+        <input type="text" name="Lastname" id="Lastname"> 
+
+       </div>
+
+       <div>
+
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email">
+
+       </div>
+       <div>
+
+        <label for="birthdate">Date of Birth</label>
+        <input type="date" name="birthdate" id="birthdate">
+
+       </div>
+
+       <h3>Gender</h3>
+       <div>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value=" male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value=" female">
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value=" other">
+
+       </div>
+
+
+       <div>
+            <select>
+                <option value="html">Html</option>
+                <option value="Css">Css</option>
+                <option value="js">Javescript</option>
+                <option value="c#">C#</option>
+
+            </select>
+
+        <div>
+            <h2>Favourite Progamming Languages</h2>
+            <label for="html">Html</label>
+            <input type="checkbox" id="html" name="html" value="html">
+            <label for="python">Python</label>
+            <input type="checkbox" id="python" name="python" value="python">
+            <label for="C++">C++</label>
+            <input type="checkbox" id="C++" name="C++" value="C++">
+
+        </div>
+
+        <div>
+            
+            <button type="submit" name="Submityoursurvey" id="submityoursurvery"> Submit</button>
+
+        </div>
+    </form>
+</body>
+</html>
+
 
 
 The purpose of code blocks is to define statements to be executed together.
