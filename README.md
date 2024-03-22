@@ -21,6 +21,28 @@ When to Use var, let, or const?
 JavaScript Code Blocks
 JavaScript statements can be grouped together in code blocks, inside curly brackets {...}.
 
+
+<ul>
+
+    <li> Home </li>
+    <li> Product </li>
+    <li> Shopping</li>
+    <li> Contact NO.</li>
+</ul>
+
+<ol>
+
+    <li> Home </li>
+    <li> Product </li>
+    <li> Shopping</li>
+    <li> Contact NO.</li>
+</ol>
+
+<p>
+
+    This is just testing for <span style="color:aquamarine"> span </span>.
+
+
 The purpose of code blocks is to define statements to be executed together.
 
 One place you will find statements grouped together in blocks, is in JavaScript functions:
