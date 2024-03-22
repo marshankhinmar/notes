@@ -42,6 +42,8 @@ JavaScript statements can be grouped together in code blocks, inside curly brack
 
     This is just testing for <span style="color:aquamarine"> span </span>.
 
+<img src ="a yuu ma.jpg " width= "500px" height="500px"
+
 
 The purpose of code blocks is to define statements to be executed together.
 
