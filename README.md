@@ -153,6 +153,125 @@ JavaScript statements can be grouped together in code blocks, inside curly brack
 
 
 
+
+23/3/2024 (Revision)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Marshan Personal Space</title>
+</head>
+<body>
+
+    <h1> Marshan Khin Mar Oo</h1>
+
+    <p> This is kind of my portfolio or smth like that.</p>
+    
+    <p> i am trying my best for <strong> my self production</strong> and i want to <em>destroy</em> my old bad habbits into a skill of a specific career so that I will be a better person for my mom.</p>
+
+    <a href="www.google.com"> Go to Google</a>
+
+    <ul>
+        <li> Home</li>
+        <li> Products</li>
+        <li> Price</li>
+        <li> Payment type</li>
+
+    </ul>
+
+    <ol>
+
+        <li> Home</li>
+        <li> Products</li>
+        <li> Price</li>
+        <li> Payment type</li>
+
+    </ol>
+
+    <p>
+        I've never thought <span style=" color: red"> these languages </span> will be interesting.
+
+    </p>
+
+    <img src="stu'slove.jpg" width="38 px" height="37 px">
+
+</body>
+</html>
+
+<p> So here is another section</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Login Form</title>
+</head>
+<body>
+ <form>
+    <div>
+         <label for="Username">Username</label>
+        <input type="text" name=" Username" id="Username" Required placeholder="Enter your name here">
+    </div>
+
+    <div>
+        <label for="email">Email</label>
+       <input type="text" name="email" id="email">
+   </div>
+
+   <div>
+    <label for="birthday">Date of Birth</label>
+   <input type="date" name=" birthday" id="birthday">
+   </div>
+
+   <div>
+    <label for="pwd">Password</label>
+   <input type="text" name=" password" id="pwd" required placeholder="Enter Your Password">
+   </div>
+   
+   <div>
+    <button type="Reset" name=" Resetbutton">Reset</Button>
+    <button type="Submit" name="loginbutton"> Login</button>
+   </div>
+
+   <h2> Choose your Gender</h2>
+
+   <div>
+
+    <label for="male"> Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+
+    <label for="female"> Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+
+    <label for="other"> Others</label>
+    <input type="radio" id="other" name="gender" value="other">
+
+   </div>
+
+   <div>
+
+    <Select>
+
+        <Option value="html">Html</Option>
+        <Option value="css"> Css</Option>
+        <Option value="js">Javascript</Option>
+        <Option value="Python"> Python</Option>
+
+    </Select>
+   </div>
+
+
+ 
+   <div>
+   <button type="Submit" name="submityoursurvey" id="submityoursurvey">Submit your survery</button>
+   </div>
+
+
+ </form>
+    
+</body>
+</html>
+
 The purpose of code blocks is to define statements to be executed together.
 
 One place you will find statements grouped together in blocks, is in JavaScript functions:
