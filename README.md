@@ -272,6 +272,135 @@ JavaScript statements can be grouped together in code blocks, inside curly brack
 </body>
 </html>
 
+
+
+24/3/2024
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Marshan Login Form(upgrade)</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class= "container-box">
+    <h1> Login Form</h1>
+
+     <form>
+    <div>
+
+        <label for="user"> Username</label>
+        <input type="text" name="username" id="user" placeholder="Enter your name here">
+    </div>
+
+    <div>
+        <label for="pwd">Password</label>
+        <input type="password" name="pwd" id="pwd" placeholder="At least 8 characters">
+
+
+    </div>
+    
+    <div class="button-container">
+
+        <button type=" Login">Login</button>
+        <button type="submit">Submit</button>
+
+    </div>
+
+    </form>
+
+    </div>
+
+    <p class="footer-text"> Do not have acoount? Please <a href="register.html"> Register Here</a>.</p>
+
+
+</body>
+</html>
+
+The Next part is as below. ************************
+
+body{
+    background-color: gray;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.container-box{
+
+    width: 360px;
+    height:100%;
+    margin:auto;
+    color:antiquewhite;
+    background: linear-gradient(135deg, black, red);
+    border-radius: 10px;
+}
+
+    h1{
+
+        text-align: center;
+        padding-top: 20px;
+        font-size: 25px;
+        padding-bottom: 20px;
+        border: none;
+        border-bottom: 1px solid white;
+    }
+
+    form{
+
+        width: 300px;
+        margin-left: 23px;
+    }
+
+
+    form input{
+         
+        width: 100%;
+        padding: 7px;
+        border: 1px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+
+    }
+
+    .button-container{
+
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+     button{
+        text-align: center;
+        background: linear-gradient(135deg, red, black);
+        border: 1px solid white;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        color: white;
+        width: 150px;
+        cursor: pointer;
+    }
+        button:hover{
+            background:linear-gradient(-135deg, red, black)
+        }
+
+    .footer-text{
+        color:white;
+        width:360px;
+        margin: auto;
+        text-align: center;
+    }
+
+    a:hover{
+        color: pink;
+    }
+
+
 The purpose of code blocks is to define statements to be executed together.
 
 One place you will find statements grouped together in blocks, is in JavaScript functions:
