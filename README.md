@@ -399,7 +399,8 @@ body{
     a:hover{
         color: pink;
     }
-
+Today, I have learnt about JavaScript from Youtube and it's kinda interesting.
+and also I learned SQL a bit from a C# Senior Programmer.
 
 The purpose of code blocks is to define statements to be executed together.
 
